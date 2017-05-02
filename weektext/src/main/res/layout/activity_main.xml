@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/srl"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/layout_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textXinpin"
+            android:onClick="onClick"
+            style="@style/style_menu_item"
+            android:drawableTop="@drawable/menu_item_new_goods_normal"
+            android:text="新品" />
+
+        <TextView
+            android:onClick="onClick"
+            android:id="@+id/textJingpin"
+            style="@style/style_menu_item"
+            android:drawableTop="@drawable/menu_item_collect_normal"
+            android:text="精选" />
+
+        <TextView
+            android:onClick="onClick"
+            android:id="@+id/textFenlei"
+            style="@style/style_menu_item"
+            android:drawableTop="@drawable/menu_item_cart_normal"
+            android:text="分类" />
+
+        <TextView
+            android:onClick="onClick"
+            android:id="@+id/textGoueuche"
+            style="@style/style_menu_item"
+            android:drawableTop="@drawable/menu_item_new_goods_normal"
+            android:text="购物车" />
+
+        <TextView
+            android:onClick="onClick"
+            android:id="@+id/textLianxiren"
+            style="@style/style_menu_item"
+            android:drawableTop="@drawable/menu_item_contact_normal"
+            android:text="我" />
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+        android:layout_above="@+id/layout_menu">
+
+    </android.support.v4.view.ViewPager>
+
+
+</RelativeLayout>

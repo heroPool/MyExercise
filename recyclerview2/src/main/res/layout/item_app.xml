@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageviewIcon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/tencent_safe" />
+
+    <TextView
+        android:id="@+id/textviewAppname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+
+        android:layout_toRightOf="@id/imageviewIcon"
+        android:text="appname"
+
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textviewAppversion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textviewAppname"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/imageviewIcon"
+        android:text="appVersion"
+
+        android:textSize="13sp" />
+
+    <TextView
+
+        android:id="@+id/textviewAppsize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textviewAppversion"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/imageviewIcon"
+        android:text="appFileSize"
+
+        android:textSize="13sp" />
+
+    <ImageView
+        android:id="@+id/imageviewDelete"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/delete" />
+
+    <ImageView
+        android:id="@+id/imageviewUpdate"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@id/imageviewDelete"
+        android:src="@drawable/edit" />
+
+</RelativeLayout>

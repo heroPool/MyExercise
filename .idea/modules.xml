@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Exercise.iml" filepath="$PROJECT_DIR$/Exercise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/broadcast/broadcast.iml" filepath="$PROJECT_DIR$/broadcast/broadcast.iml" />
+      <module fileurl="file://$PROJECT_DIR$/databasetest/databasetest.iml" filepath="$PROJECT_DIR$/databasetest/databasetest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fragmentitem/fragmentitem.iml" filepath="$PROJECT_DIR$/fragmentitem/fragmentitem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/list/list.iml" filepath="$PROJECT_DIR$/list/list.iml" />
+      <module fileurl="file://$PROJECT_DIR$/listview/listview.iml" filepath="$PROJECT_DIR$/listview/listview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/listview02/listview02.iml" filepath="$PROJECT_DIR$/listview02/listview02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/listview03/listview03.iml" filepath="$PROJECT_DIR$/listview03/listview03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvcdemo/mvcdemo.iml" filepath="$PROJECT_DIR$/mvcdemo/mvcdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myapplication/myapplication.iml" filepath="$PROJECT_DIR$/myapplication/myapplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recyclerview2/recyclerview2.iml" filepath="$PROJECT_DIR$/recyclerview2/recyclerview2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recycleview/recycleview.iml" filepath="$PROJECT_DIR$/recycleview/recycleview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/service.iml" filepath="$PROJECT_DIR$/service/service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/servicefordownload/servicefordownload.iml" filepath="$PROJECT_DIR$/servicefordownload/servicefordownload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weektext/weektext.iml" filepath="$PROJECT_DIR$/weektext/weektext.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xingnengyouhua/xingnengyouhua.iml" filepath="$PROJECT_DIR$/xingnengyouhua/xingnengyouhua.iml" />
+    </modules>
+  </component>
+</project>

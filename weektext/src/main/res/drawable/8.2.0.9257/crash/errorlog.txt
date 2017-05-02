@@ -1,0 +1,170 @@
+hwsig=2CE3E6267F4E6341807442F6FD56036E
+version=8.2.0.9257
+//=====================================================
+Time: 2017.02.13 19:22:15 240
+Application: C:\WINDOWS\Explorer.EXE
+GlobalMemory: pmiu:0x0000002E tkpm:0x007B4698 fkpm:0x00423990 tkpf:0x00F74698 fkpf:0x009B658C tkvm:0xFFFFFF80 fkvm:0x7FF51220 aema:0x00000000 
+CurMemory: pfc:0x00064685 pwss:0x00024934 wss:0x0002297C qpppu:0x0000053F qppu:0x00000500 qpnppu:0x000000BF qnppu:0x0000008D pfu:0x00013F98 ppfu:0x0001BA38 
+Exception code: C0000005 ACCESS_VIOLATION
+Fault address:  00007FFD2D9565EC 01:000055EC C:\WINDOWS\System32\IMM32.DLL
+Exception Param:0000000000000000	FFFFFFFFFFFFFFFF	
+CPU mode: AMD64
+Registers:RAX:0000000000000000 RBX:00000000060CA120 RCX:000000000D8083F0 RDX:0000000000000001 RSI:000000000D8083F0 RDI:013C378201040106 CS:RIP:0033:00007FFD2D9565EC SS:RSP:002B:000000001053F6D0 RBP:000000000051E6D0 DS:002B FS:0053 GS:002B Flags:00010206
+
+type:0
+---------------------------------------------------
+Processes:
+    [0] [System Process]
+    [4] System
+    [380] smss.exe
+    [616] csrss.exe
+    [696] wininit.exe
+    [708] csrss.exe
+    [784] winlogon.exe
+    [836] services.exe
+    [844] lsass.exe
+    [936] svchost.exe
+    [1000] svchost.exe
+    [692] svchost.exe
+    [832] dwm.exe
+    [436] svchost.exe
+    [1156] svchost.exe
+    [1232] svchost.exe
+    [1252] ibmpmsvc.exe
+    [1376] svchost.exe
+    [1428] svchost.exe
+    [1588] igfxCUIService.exe
+    [1864] svchost.exe
+    [1884] svchost.exe
+    [2032] svchost.exe
+    [2040] ZhuDongFangYu.exe
+    [2068] svchost.exe
+    [2144] dasHost.exe
+    [2572] spoolsv.exe
+    [2868] BtwRSupportService.exe
+    [2876] svchost.exe
+    [2892] svchost.exe
+    [2908] lenovodrvsrv.exe
+    [2924] OfficeClickToRun.exe
+    [2996] svchost.exe
+    [3004] mqsvc.exe
+    [3036] QiyiService.exe
+    [3044] QQProtect.exe
+    [2132] SynTPEnhService.exe
+    [2304] svchost.exe
+    [3188] Memory Compression
+    [3736] SMSvcHost.exe
+    [3772] Locator.exe
+    [4028] SMSvcHost.exe
+    [4552] WmiPrvSE.exe
+    [3784] jhi_service.exe
+    [4972] LMS.exe
+    [2348] SearchIndexer.exe
+    [3052] sihost.exe
+    [4040] SynTPEnh.exe
+    [3748] svchost.exe
+    [1528] PresentationFontCache.exe
+    [1280] taskhostw.exe
+    [5204] ChsIME.exe
+    [5256] SynTPLpr.exe
+    [5268] SynLenovoHelper.exe
+    [5320] RuntimeBroker.exe
+    [5508] SynTPHelper.exe
+    [5544] igfxEM.exe
+    [5552] igfxHK.exe
+    [6880] RAVCpl64.exe
+    [7020] RAVBg64.exe
+    [7056] RAVBg64.exe
+    [5076] powerwordkuaiyi.exe ("C:\Users\Administrator\AppData\Local\Kingsoft\PowerWordKuaiYi2016\1.0.0.0003\powerwordkuaiyi.exe" -autorun) 
+    [6948] QQ.exe ("D:\Bin\QQ.exe" /hosthwnd=66360 /hostname=QQ_IPC_{5B01DDFC-D4A7-44A8-977F-B3B05070C94D} /memoryid=0 "D:\Bin\QQ.exe" /background) 
+    [6256] 360tray.exe
+    [7224] windowmsgserver64.exe
+    [7236] windowmsgserver32.exe (C:\Users\Administrator\AppData\Local\Kingsoft\PowerWordKuaiYi2016\1.0.0.0003\windowmsgserver32.exe) 
+    [7604] TXPlatform.exe ("D:\Bin\TXPlatform.exe" -Embedding) 
+    [7652] iusb3mon.exe ("C:\Program Files (x86)\Intel\Intel(R) USB 3.0 eXtensible Host Controller Driver\Application\iusb3mon.exe" ) 
+    [7544] ApplicationFrameHost.exe
+    [5304] studio64.exe
+    [1976] fsnotifier64.exe
+    [1264] conhost.exe
+    [7328] java.exe
+    [7516] conhost.exe
+    [7588] SystemSettings.exe
+    [9588] Microsoft.Msn.Weather.exe ("C:\Program Files\WindowsApps\Microsoft.BingWeather_4.18.37.0_x86__8wekyb3d8bbwe\Microsoft.Msn.Weather.exe" -ServerName:App.AppX2m6wj6jceb8yq7ppx1b3drf7yy51ha6f.mca) 
+    [9092] WinStore.App.exe
+    [4804] SogouCloud.exe ("D:\SogouInput\8.2.0.9257\SogouCloud.exe" -daemon) 
+    [9696] SogouImeLoader.exe ("C:\WINDOWS\SysWoW64\IME\SogouPY\SogouImeLoader.exe" ) 
+    [8604] fontdrvhost.exe
+    [9288] aapt.exe (D:\Android\sdk\build-tools\25.0.2\aapt.exe m) 
+    [944] aapt.exe (D:\Android\sdk\build-tools\25.0.2\aapt.exe m) 
+    [7448] conhost.exe
+    [2984] aapt.exe (D:\Android\sdk\build-tools\25.0.2\aapt.exe m) 
+    [8120] conhost.exe
+    [4640] aapt.exe (D:\Android\sdk\build-tools\25.0.2\aapt.exe m) 
+    [7816] conhost.exe
+    [8612] aapt.exe (D:\Android\sdk\build-tools\25.0.2\aapt.exe m) 
+    [156] aapt.exe (D:\Android\sdk\build-tools\25.0.2\aapt.exe m) 
+    [6776] conhost.exe
+    [3428] conhost.exe
+    [2360] conhost.exe
+    [5924] aapt.exe (D:\Android\sdk\build-tools\25.0.2\aapt.exe m) 
+    [8700] conhost.exe
+    [3120] aapt.exe (D:\Android\sdk\build-tools\25.0.2\aapt.exe m) 
+    [4284] aapt.exe (D:\Android\sdk\build-tools\25.0.2\aapt.exe m) 
+    [7104] conhost.exe
+    [1016] conhost.exe
+    [10144] aapt.exe (D:\Android\sdk\build-tools\25.0.2\aapt.exe m) 
+    [2020] conhost.exe
+    [8888] aapt.exe (D:\Android\sdk\build-tools\25.0.2\aapt.exe m) 
+    [4904] conhost.exe
+    [4204] aapt.exe (D:\Android\sdk\build-tools\25.0.2\aapt.exe m) 
+    [9008] conhost.exe
+    [5828] aapt.exe (D:\Android\sdk\build-tools\25.0.2\aapt.exe m) 
+    [5992] aapt.exe (D:\Android\sdk\build-tools\25.0.2\aapt.exe m) 
+    [8488] conhost.exe
+    [360] conhost.exe
+    [1492] aapt.exe (D:\Android\sdk\build-tools\25.0.2\aapt.exe m) 
+    [5884] conhost.exe
+    [6852] aapt.exe (D:\Android\sdk\build-tools\25.0.2\aapt.exe m) 
+    [2776] conhost.exe
+    [1288] aapt.exe (D:\Android\sdk\build-tools\25.0.2\aapt.exe m) 
+    [9932] aapt.exe (D:\Android\sdk\build-tools\25.0.2\aapt.exe m) 
+    [9772] conhost.exe
+    [5736] conhost.exe
+    [6836] aapt.exe (D:\Android\sdk\build-tools\25.0.2\aapt.exe m) 
+    [8636] conhost.exe
+    [3180] aapt.exe (D:\Android\sdk\build-tools\25.0.2\aapt.exe m) 
+    [10028] conhost.exe
+    [1948] winpty-agent.exe
+    [5656] conhost.exe
+    [2200] cmd.exe
+    [3824] YoudaoNote.exe ("D:\YoudaoNote\YoudaoNote.exe" show) 
+    [9472] YNoteCefRender.exe (YNoteCefRender.exe --type=gpu-process --channel="3824.0.2119215083\540366856" --no-sandbox --lang=zh-CN --log-file="C:\Users\Administrator\AppData\Local\Youdao\YNote\log\cef.log" --user-agent="Mozilla/5.0 (Windows; WOW64) AppleWebKit/537.36 (KHTML, like Gecko)) 
+    [5664] YNoteCefRender.exe (YNoteCefRender.exe --type=renderer --no-sandbox --lang=en-US --lang=zh-CN --log-file="C:\Users\Administrator\AppData\Local\Youdao\YNote\log\cef.log" --user-agent="Mozilla/5.0 (Windows; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/53) 
+    [5096] YNoteCefRender.exe (YNoteCefRender.exe --type=renderer --no-sandbox --lang=en-US --lang=zh-CN --log-file="C:\Users\Administrator\AppData\Local\Youdao\YNote\log\cef.log" --user-agent="Mozilla/5.0 (Windows; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/53) 
+    [3080] DocToPDF.exe ("D:\YoudaoNote\DocToPDF.exe" C:\Users\Administrator\AppData\Local\YNote\data\qq039D8B55B0DFA42F72E034A9AB658428\DocToPDF) 
+    [4256] dllhost.exe
+    [10340] SogouImeBroker.exe ("C:\WINDOWS\SysWoW64\IME\SogouPY\SogouImeBroker.exe" -Embedding) 
+    [10312] cmd.exe
+    [7976] conhost.exe
+    [216] java.exe
+    [10528] adb.exe (adb -P 5037 fork-server server --reply-fd 516) 
+    [12204] 360se.exe ("C:\Users\Administrator\AppData\Roaming\360se6\Application\360se.exe") 
+    [4580] wdswfsafe.exe ("C:\Program Files (x86)\360\360safe\safemon\wdswfsafe.exe") 
+    [10812] 360se.exe ("C:\Users\Administrator\AppData\Roaming\360se6\Application\360se.exe" --type=plugin --plugin-path="C:\Users\Administrator\AppData\Roaming\360se6\Application\npflash\23_0_0_162\NPSWF32_23_0_0_162.dll" --lang=zh-CN --channel="12204.1.670257782\2038404578" /prefe) 
+    [7260] WmiApSrv.exe
+    [1292] splwow64.exe
+    [10272] SearchProtocolHost.exe
+    [5404] SearchFilterHost.exe
+    [8940] ktpcntr.exe ("D:\Kingsoft\Power Word 2016\2016.3.1.0255\ktpcntr.exe" powerword 2016.3.1.0255 http://download.iciba.com/pc/qipo_update/ktpcntr.7z) 
+    [5948] audiodg.exe
+    [8732] 360se.exe ("C:\Users\Administrator\AppData\Roaming\360se6\Application\360se.exe" --type=renderer --disable-direct-write --lang=zh-CN --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --enable-pinch --device-scale-factor=1 --enable-delegated-renderer ) 
+    [5488] 360se.exe ("C:\Users\Administrator\AppData\Roaming\360se6\Application\360se.exe" --type=renderer --disable-direct-write --lang=zh-CN --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --enable-pinch --device-scale-factor=1 --enable-delegated-renderer ) 
+    [808] crashrpt.exe ("D:\SogouInput\8.2.0.9257\crashrpt.exe" "sogoupy.ime" "sogoupy" "0" "crush_un.dmp" "crush_un.rpt") 
+    [9968] explorer.exe
+    [9116] svchost.exe
+    [12260] WerFault.exe
+    [11136] explorer.exe
+    [2472] taskhostw.exe
+    [11388] ShellExperienceHost.exe
+    [10624] dllhost.exe
+    [7576] dllhost.exe
