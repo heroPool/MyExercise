@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="apps">
+        <item>腾讯手机管家</item>
+        <item>百度安全卫士</item>
+        <item>金山毒霸</item>
+        <item>安医生</item>
+        <item>瑞星手机安全软件</item>
+        <item>网秦安全</item>
+        <item>防盗卫士</item>
+        <item>大蜘蛛反病毒</item>
+        <item>AVG</item>
+        <item>LBE安全大师</item>
+        <item>摩安卫士</item>
+    </string-array>
+</resources>
